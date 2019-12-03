@@ -1,0 +1,9 @@
+{
+  "short_name": "Plate Analysis",
+  "name": "SofTx Innovations PSP Plates Disposer",
+  
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
