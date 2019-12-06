@@ -163,7 +163,7 @@ class App extends React.Component{
                         </span>
                     </span>
                     <section id="container">
-                        <h1>Plate Analysis <a href="/#" onClick={(event) => this.handleClickUploadModal(event)}>+ New Scan</a></h1>
+                        <h1>Photostimulable Phosphor Plate Analysis<a href="/#" onClick={(event) => this.handleClickUploadModal(event)}>+ New Scan</a></h1>
 
                         <h6>Alpha Version (0.1)</h6>
                         <div id="dashboard">

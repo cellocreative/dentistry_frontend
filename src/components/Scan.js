@@ -18,6 +18,13 @@ class Scan extends React.Component {
         }else{
             this.style = {probs : {color: '#5cd444'}}
         }
+
+        // Date
+        var d = new Date();
+        var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        this.date = months[d.getMonth()] + ' / ' + d.getDate() + ' / ' + d.getFullYear();
+
+
         
         this.showOriginal = this.showOriginal.bind(this);
         this.showHeatmap = this.showHeatmap.bind(this);
@@ -56,7 +63,7 @@ class Scan extends React.Component {
                     }
                     <div className="info">
                         <div className="header">
-                            <b className="date">June / 23 / 2019</b>
+                            <b className="date">{this.date}</b>
                             <b className="heatmapImage" onClick={this.showHeatmap}>Heatmap</b>
                             <b className="originalImage" onClick={this.showOriginal}>Original</b>
                             

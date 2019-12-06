@@ -261,16 +261,24 @@
 }
 #viewport #container #dashboard #dashboard-viewport span .info .originalImage {
   float: right;
-  margin: 0px 10px 0px 0px;
+  margin: -3px 1px -9px 1px;
+  padding: 3px 7px;
 }
 #viewport #container #dashboard #dashboard-viewport span .info .heatmapImage {
   float: right;
+  color: #e6812e;
+  border: 1px solid #e6812e;
+  border-radius: 2px;
+  padding: 3px 7px;
+  margin: -5px 1px -9px 1px;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 #viewport #container #dashboard #dashboard-viewport span .info .originalImage:hover {
   color: #4da1ff;
 }
 #viewport #container #dashboard #dashboard-viewport span .info .heatmapImage:hover {
-  color: #4da1ff;
+  color: white;
+  background-color: #e6812e;
 }
 
 
