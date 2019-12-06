@@ -70,7 +70,7 @@ class App extends React.Component{
                 trackPromise(
                 axios({
                     method: 'POST',
-                    url: 'https://softxinnovation.com:5000/predict',
+                    url: 'http://15.206.187.32/predict/',
                     data: formData,
                     config: { headers: {'Content-Type': 'multipart/form-data'}}
                 })
