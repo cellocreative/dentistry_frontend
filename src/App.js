@@ -169,11 +169,11 @@ class App extends React.Component{
                         <div id="dashboard">
                             <div id="dashboard-menu">
                                 <li className="active"><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d1.png")} alt="" /><b>Current Scan</b></a></li>
-                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d2b.png")} alt="" /><b>Scan History</b></a></li>
-                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d3b.png")} alt="" /><b>Routines</b></a></li>
-                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d4b.png")} alt="" /><b>Notification</b></a></li>
-                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d5b.png")} alt="" /><b>Settings</b></a></li>
-                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d6b.png")} alt="" /><b>Support</b></a></li>
+                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d2b.png")} alt="" /><b>Scan History</b> <i>PRO</i> </a></li>
+                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d3b.png")} alt="" /><b>Routines</b> <i>PRO</i></a></li>
+                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d4b.png")} alt="" /><b>Notification <i>PRO</i></b></a></li>
+                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d5b.png")} alt="" /><b>Settings</b> <i>PRO</i></a></li>
+                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d6b.png")} alt="" /><b>Support</b> <i>PRO</i></a></li>
                             </div>
                             <div id="dashboard-viewport">
                                 {this.state.scans}
