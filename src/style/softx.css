@@ -633,7 +633,7 @@
 
 #loading-image {
  position: sticky;
- top: 250px;
+ top: 40%;
  z-index: 100;
 }
 

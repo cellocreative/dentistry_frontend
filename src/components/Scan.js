@@ -24,7 +24,11 @@ class Scan extends React.Component {
         var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
         this.date = months[d.getMonth()] + ' / ' + d.getDate() + ' / ' + d.getFullYear();
 
-
+        // Probability Format
+        this.probs = Math.round(this.props.probs[1]*100);
+        if (this.probs === 0){
+            this.probs = '< 1'
+        }
         
         this.showOriginal = this.showOriginal.bind(this);
         this.showHeatmap = this.showHeatmap.bind(this);
@@ -72,7 +76,7 @@ class Scan extends React.Component {
 
                         
 
-                        <strong className="artifact"><b>Dispose (%)</b><i style={this.style.probs}>{(this.props.probs[1]*100).toFixed(2)}<strong>%</strong></i></strong>
+                        <strong className="artifact"><b>Dispose (%)</b><i style={this.style.probs}>{this.probs}<strong> %</strong></i></strong>
                         <strong className="status keep">  <b> 
                             <svg viewBox="0 0 397 422">                                 
                             <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
