@@ -51,7 +51,7 @@
   padding: 0;
 }
 #side-nav a.active {
-  background-color: #4da1ff;
+  background-color: #4db8ff;
   border: 1px solid #3f86d8;
 }
 #side-nav a.active img {
@@ -126,31 +126,54 @@
   padding: 25px;
 }
 #viewport #container h1 {
-  font-size: 28px;
-  line-height: 0px;
+  font-size: 26px;
+  line-height: 1px;
   font-weight: 400;
-  letter-spacing: -0px;
+  letter-spacing: 0.5px;
   font-family: forma-djr-display, sans-serif;
   font-style: normal;
 }
 #viewport #container h1 a {
-  font-size: 13px;
-  letter-spacing: 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
   font-weight: 400;
-  padding: 7px 15px;
+  padding: 12px 25px;
   margin: -15px 10px 0px 10px;
-  border-radius: 3px;
+  border-radius: 25px;
   color: #4da1ff;
   text-decoration: none;
+  text-transform: normal;
   position: relative;
   top: -5px;
-  border: 1px solid #4da1ff;
+  border: 1px solid #4db8ff;
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#viewport #container h1 a b{
+padding: 5px 4px 4px 5px !important;
+display: inline-block;
+border: 1px solid #4db8ff;
+border-radius: 4px;
+height: 5px;
+padding-top: 8px !important;
+position: relative;
+left: -5px;
+font-weight: 400;
+opacity: 0.9;
+transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+
 }
 #viewport #container h1 a:hover {
   color: #fff;
-  background-color: #4da1ff;
+  background-color: #4db8ff;
   border: 1px solid #3f86d8;
+  padding: 14px 29px;
+
+}
+
+#viewport #container h1 a:hover b {
+  left: -12px;
+  border: 1px solid #fff;
 }
 #viewport #container h6 {
   font-weight: 400;
@@ -211,11 +234,12 @@
 }
 #viewport #container #dashboard #dashboard-menu li a b {
   position: relative;
-  top: -3px;
+  top:-3px;
+  display:inline-block;
   font-weight: 400;
 }
 #viewport #container #dashboard #dashboard-menu .active {
-  background-color: #4da1ff;
+  background-color: #4db8ff;
   border: 1px solid #3f86d8;
 }
 #viewport #container #dashboard #dashboard-menu .active img {
@@ -651,11 +675,11 @@
   border: 1px solid #eee;
   border-radius: 4px;
   background-color: #fff;
-  border: 1px solid #4da1ff;
+  border: 1px solid #4db8ff;
   color: #4da1ff;
   margin: 0;;
   display: block !important;
   transform: scale(0.8);
-  opacity: 0.6;
+  opacity: 1;
 
 }

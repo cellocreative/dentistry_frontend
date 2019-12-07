@@ -163,7 +163,7 @@ class App extends React.Component{
                         </span>
                     </span>
                     <section id="container">
-                        <h1>Photostimulable Phosphor Plate Analysis<a href="/#" onClick={(event) => this.handleClickUploadModal(event)}>+ New Scan</a></h1>
+                        <h1>Photostimulable Phosphor Plate Analysis<a href="/#" onClick={(event) => this.handleClickUploadModal(event)}><b>+</b> New Scan</a></h1>
 
                         <h6>Alpha Version (0.1)</h6>
                         <div id="dashboard">
@@ -171,7 +171,7 @@ class App extends React.Component{
                                 <li className="active"><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d1.png")} alt="" /><b>Current Scan</b></a></li>
                                 <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d2b.png")} alt="" /><b>Scan History</b> <i>PRO</i> </a></li>
                                 <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d3b.png")} alt="" /><b>Routines</b> <i>PRO</i></a></li>
-                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d4b.png")} alt="" /><b>Notification <i>PRO</i></b></a></li>
+                                <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d4b.png")} alt="" /><b>Notification</b> <i>PRO</i></a></li>
                                 <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d5b.png")} alt="" /><b>Settings</b> <i>PRO</i></a></li>
                                 <li><a href="/#" onClick={this.defaultClick}><img src = {require("./assets/icons/d6b.png")} alt="" /><b>Support</b> <i>PRO</i></a></li>
                             </div>
