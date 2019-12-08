@@ -76,7 +76,7 @@ class Scan extends React.Component {
 
                         
 
-                        <strong className="artifact"><b>Dispose (%)</b><i style={this.style.probs}>{this.probs}<strong> %</strong></i></strong>
+                        <strong className="artifact"><b>Discard (%)</b><i style={this.style.probs}>{this.probs}<strong> %</strong></i></strong>
                         <strong className="status keep">  <b> 
                             <svg viewBox="0 0 397 422">                                 
                             <g id="Page-1" stroke="none" strokeWidth={1} fill="none" fillRule="evenodd">
